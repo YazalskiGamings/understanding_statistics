@@ -1,6 +1,4 @@
-# Simulation_Study_1
-
-Simulation Study Comparing Methods of ANOVA and Kruskal-Wallis 
+# Simulation Study Comparing Methods of ANOVA and Kruskal-Wallis 
 
 # Overview of the Methods:
 
