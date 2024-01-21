@@ -9,17 +9,29 @@ When we encounter the situation that any group can’t be assumed normal, we nee
 # Overview of Simulation Settings:
 
 nsim: number of times the simulation gets generated (nsim = 10)
+
 n_small: small sample size (n = 10)
+
 n_large: large sample size (n = 100)
-rpois: non-normal distribution (Poisson)
+
+rpois: non-normal distribution (Poisson) 
+
 Non - Normal when test are Δ ≠ 0
+
 Lambda: the mean number of events within a given interval of time or space is set to λ = 2,8,14
+
 Non - Normal when test are Δ = 0
+
 Lambda: the mean number of events within a given interval of time or space is set to λ = 5
+
 rnorm: normal distribution 
+
 Normal when test are Δ ≠ 0
+
 Mean is set to 1,5,10 and standard deviation is set to 1
+
 Normal when test are Δ = 0
+
 Mean is set to 0 and standard deviation is set to 1
 
 We made sure that for both n_small and n_large, we created a scenario where the data is normally distributed and non normally distributed. Furthermore, a p value that correctly rejects the null hypothesis when null is false (power). Therefore, we were able to produce 8 data frames where all the p values and power results of Kruskal Wallis and ANOVA from the 10 simulations are stored in those data frames. We then conducted data manipulation such as matrix transposition to visualize the results of our p values and powers using scatter plots. In total, we will create 4 graphics and 2 tables. 2 graphics illustrate the results of the Power vs Sample size under normal conditions of ANOVA and Kruskal Wallis, while the other 2 graphics illustrate the results of, again, Power vs Sample size except under Non-Normal conditions of ANOVA and Kruskal Wallis. The 2 tables will show the statistically significant entries where alpha = 0.05.
