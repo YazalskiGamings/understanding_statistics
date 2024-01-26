@@ -1,19 +1,13 @@
----
-title: "Simulation_Study"
-author: "Everest Young"
-date: "2023-12-16"
-output: pdf_document
----
+#  Simulation Study Comparing Kruskal Wallis vs ANOVA  #
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
-```{r}
+# Packages 
+library(ggplot2)
+library(dplyr)
+library(tidyr)
 set.seed(123)
 
-# Small Sample
+# Small Sample #
+
 nsim <- 10
 n_small <- 10
 
@@ -120,10 +114,7 @@ for (i in 1:nsim) {
 small1_non_power
 
 
-```
-
-```{r}
-# Large Sample
+# Large Sample #
 nsim <- 10
 n_large <- 100
 
@@ -228,16 +219,9 @@ for (i in 1:nsim) {
 }
 
 large_non_power
-```
 
 
-```{r}
-library(ggplot2)
-library(dplyr)
-library(tidyr)
-
-
-# Visualization x2 (non normal normal)
+# Visualization x2 (non normal normal) #
 
 # Normal
 # x = sample size
@@ -297,7 +281,7 @@ table_merge_p__nonnormal <- merge_p__nonnormal %>% filter(Pval < 0.05)
 table_merge_p__nonnormal
 table_merge_p_normal <- merge_p_normal %>% filter(Pval < 0.05)
 table_merge_p_normal
-```
+
 
 
 
