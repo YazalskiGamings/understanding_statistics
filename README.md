@@ -1,4 +1,4 @@
-# MAIN STATS Simulation Study 
+# Statistics Simulation Studies
 
 Navigate between the different branches. 
 
