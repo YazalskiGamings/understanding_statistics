@@ -1,8 +1,12 @@
 # MAIN STATS Simulation Study 
 
-## 1) ANOVA vs Kruskal Wallis Method of Test 
+Navigate between the different branches. 
 
-## 2) Bayesian vs Frequentist Approach 95% Confidence Interval 
+## 1) Main (Current page)
+
+## 2) Interpretation 95% Confidence Interval (Bayesian vs Frequentist)
+
+## 3) Asymptotic vs Exact Behavior in Small and Large Samples for a Method (ANOVA vs Kruskal Wallis Method of Test Comparison)
 
 
 
