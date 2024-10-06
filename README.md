@@ -1,12 +1,12 @@
-# Statistics Simulation Studies
+# Introduction
 
-Navigate between the different branches. 
+Here, I will upload any projects that are related to statistics. The repo will include, not limited to, Bayesian analysis, simulation studies, time series forecasting, Statistical Techniques, and anything that interests me regarding statistics.
 
-## 1) Main (Current page)
+## 1) Interpretation 95% Confidence Interval (Bayesian vs Frequentist)
+  - Small excerise that differentiates between bayesian and freqentist interpretation.
 
-## 2) Interpretation 95% Confidence Interval (Bayesian vs Frequentist)
-
-## 3) Asymptotic vs Exact Behavior in Small and Large Samples for a Method (ANOVA vs Kruskal Wallis Method of Test Comparison)
+## 2) Asymptotic vs Exact Behavior in Small and Large Samples for a Method (ANOVA vs Kruskal Wallis Method of Test Comparison)
+  - Nonparametric vs parametric behavior under different conditions (normal/non normal + small/large sample) and compare the methods.
 
 
 
